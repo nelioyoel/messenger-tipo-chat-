@@ -29,7 +29,7 @@ public class conector extends Thread {
                 entrada=new BufferedReader(entradaSocket);
                 // la creacion de salida ded datos para el envio del mesaje
                 salida=new DataOutputStream(s.getOutputStream());
-                this.salida.writeUTF("*******conectado******");
+                this.salida.writeUTF("*******conectado******\n \n");
                 }catch(Exception e){};   
     }
        
@@ -85,23 +85,7 @@ public class conector extends Thread {
         
         return null; 
     }
-    
-    
-    public void desconectar()
-    {
-        try{
-         s.close();
-        }catch(IOException e){};
-        
-        
-        try{
-        ss.close();
-        }catch(IOException e){};
-    
-    }    
-    
-    
-
+   
    }
 
     

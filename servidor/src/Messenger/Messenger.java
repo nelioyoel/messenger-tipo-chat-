@@ -6,8 +6,7 @@
 
 package Messenger;
 
-import Messenger.conector;
-import Messenger.ventanaServidor;
+
 
 /**
  *
@@ -20,15 +19,17 @@ public static conector servidor;
       ventanaServidor  server=new ventanaServidor();
       server.main();
      }
+      public static void initserver()
+    {
+    servidor=new conector();
+    }
  
     public static void initserver(String ip)
     {
-    servidor=new conector();
+    servidor=new conector(ip);
     servidor.start();
     
     }
-            
-    
-    
-    
-}
+
+   
+           }

@@ -61,10 +61,7 @@ public class conector extends Thread{ // hilos
         texto=entrada.readLine();//guardamos el mensaje que resibinos
         ventanaCliente.jTextArea1.setText(ventanaCliente.jTextArea1.getText() + "\n" +texto);
         
-        
-        
-   
-    }catch(IOException e){};
+        }catch(IOException e){};
     }
     
     }
