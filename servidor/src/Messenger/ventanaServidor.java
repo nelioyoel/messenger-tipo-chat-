@@ -9,7 +9,7 @@ import Messenger.Messenger;
 
 /**
  *
- * @author HUARCAYA
+ * @author HUARCAYA CHOCHOCCA NELIO
  */
 public class ventanaServidor extends javax.swing.JFrame {
 
