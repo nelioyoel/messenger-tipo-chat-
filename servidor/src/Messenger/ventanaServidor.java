@@ -128,7 +128,11 @@ public class ventanaServidor extends javax.swing.JFrame {
     }//GEN-LAST:event_NicNameActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-    
+ Messenger.servidor.inviarMsg(this.NicName.getText()+"dice: \n "+
+                this.jTextField2.getText());
+        this.jTextArea1.setText(this.jTextArea1.getText()+"\n"+
+                this.NicName.getText()+"dice: \n"+
+                this.jTextField2.getText());    
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
