@@ -85,6 +85,21 @@ public class conector extends Thread {
         
         return null; 
     }
+     public void desconectar()
+    {
+        try{
+         s.close();
+        }catch(IOException e){};
+        
+        
+        try{
+        ss.close();
+        }catch(IOException e){};
+    
+    }  
+
+    
+    
    
    }
 
