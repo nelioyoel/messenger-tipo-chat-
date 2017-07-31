@@ -15,7 +15,7 @@ public class conector extends Thread{ // hilos
     //creamos variables de clse private
     private Socket s;
     private ServerSocket ss;
-    private InputStreamReader entradaSocket;// la entrada de socket o de lector 
+    private InputStreamReader entradaSocket;// la entrada de socket o de lectorrr
     private DataOutputStream salida;//la salida de soket o de datos 
     private BufferedReader entrada;//para leer el mesajes
     final int puerto=8000;
